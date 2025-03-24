@@ -1,0 +1,55 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(var(--primary-6)) 0%, rgb(var(--success-6)) 100%);
+    padding: 20px;
+}
+
+.loginCard {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    background-color: var(--color-bg-2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+    :global {
+        .arco-card-header {
+            text-align: center;
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-top: 20px;
+
+        }
+
+        .arco-card-header-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: rgb(var(--primary-6));
+        }
+
+        .arco-form-item {
+            margin-bottom: 24px;
+        }
+
+        .arco-input-wrapper {
+            background-color: var(--color-fill-2);
+        }
+
+        .arco-form-item-control {
+            width: 300px;
+        }
+
+        .arco-btn-primary {
+            margin-top: 8px;
+            height: 40px;
+            font-size: 16px;
+        }
+    }
+}
+
+.loginForm {
+    margin: 20px auto 0;
+    width: 300px;
+}
